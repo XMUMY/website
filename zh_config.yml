@@ -15,13 +15,13 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://localhost
-root: /
+root: /zh/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
 source_dir: source_zh
-public_dir: public_zh
+public_dir: public/zh
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
