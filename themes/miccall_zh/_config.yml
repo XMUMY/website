@@ -4,9 +4,9 @@
 
 # Head info
 head:
-    favicon: "images/logo.jpg"
+    favicon: images/logo.jpg
     keywords: XMUX
-    backgroundpic : "images/bg.jpg"
+    backgroundpic : images/bg.jpg
 
 Intro:
     name: XMUX
@@ -26,10 +26,10 @@ Nav:
         github: https://github.com/X-dea/XMUX
         
     pages:
+        团队 :
+            link: "/team/"
         # 简历: 
         #     link: "/about/"
-        # 团队 :
-        #     link: "/group/"
         # 图库 :
         #     link: "/gallery/"
         # 标签:
@@ -39,13 +39,13 @@ Nav:
 
 MainFirst:
     name: XMUX应用
-    description: Mobile app for XMUMers 
-    pic_url: /images/logo.jpg
-    goto_ulr: ""
+    description: 为XMUMers设计的手机应用
+    pic_url: images/logo.jpg
+    goto_ulr: https://cuu69.app.goo.gl/xmuxdl
 
 Gallery :
-    title: Mr.metro 
-    description: Just another fine responsive 
+    title: G
+    description: x
 
 # ---------------------------------------------------------------
 # Style Settings

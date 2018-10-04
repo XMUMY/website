@@ -4,9 +4,9 @@
 
 # Head info
 head:
-    favicon: "images/logo.jpg"
+    favicon: images/logo.jpg
     keywords: XMUX
-    backgroundpic : "images/bg.jpg"
+    backgroundpic : images/bg.jpg
 
 Intro:
     name: XMUX
@@ -26,10 +26,10 @@ Nav:
         github: https://github.com/X-dea/XMUX
         
     pages:
+        Team:
+            link: "/team/"
         # 简历: 
         #     link: "/about/"
-        # 团队 :
-        #     link: "/group/"
         # 图库 :
         #     link: "/gallery/"
         # 标签:
@@ -40,12 +40,12 @@ Nav:
 MainFirst:
     name: XMUX App
     description: Mobile app for XMUMers 
-    pic_url: /images/logo.jpg
-    goto_ulr: ""
+    pic_url: images/logo.jpg
+    goto_ulr: https://cuu69.app.goo.gl/xmuxdl
 
 Gallery :
-    title: Mr.metro 
-    description: Just another fine responsive 
+    title: G
+    description: x
 
 # ---------------------------------------------------------------
 # Style Settings
@@ -66,7 +66,7 @@ comment:
     use: false
     shortname: http-miccall-tech 
     duoshuo_thread_key_type: path
-    duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
+    duoshuo_embed_js_url: https://static.duoshuo.com/embed.js
     changyan_appid:
     changyan_conf:
     changyan_thread_key_type: path
@@ -95,14 +95,14 @@ leancloud:
     enable: false
     app_id: #你的 app_id
     app_key: #你的 app_key
-    av_core_mini: "https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"
+    av_core_mini: https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js
 
 # Busuanzi 不蒜子 Views
 busuanzi:
     enable: true
     all_site_uv: true
     post_pv: true
-    busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
+    busuanzi_pure_mini_js: https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js
 
 
 # Mathjax 支持库 
