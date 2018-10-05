@@ -1,1 +1,3 @@
-XMUX_website
+# XMUX Official Website
+
+XMUX official website by Hexo
