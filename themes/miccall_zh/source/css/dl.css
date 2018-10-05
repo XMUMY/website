@@ -1,0 +1,10 @@
+@media screen and (max-width: 600px) {
+  .dl-btn-con {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  #dl-ios-img {
+      width: 283px;
+  }
+}

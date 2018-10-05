@@ -3,7 +3,7 @@ title: Downloads
 date: 2018-01-01 00:00:00
 thumbnail: https://pic1.zhimg.com/v2-3e2f6b26a92a4b3ca2e1028ac2aaaee4_1200x500.jpg
 ---
-<div style="display: flex"><div><a href='https://play.google.com/store/apps/details?id=org.ctbeta.xmux.xmux&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img width="323px" height="125px" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/zh-cn_badge_web_generic.png'/></a></div><div style="margin-top: 10px"><a href='https://itunes.apple.com/my/app/xmux/id1366324008'><img width="254px" height="104px" alt='Get it on Google Play' src='https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg'/></a></div></div>
+<div class="dl-btn-con" style="display: flex"><div><a href='https://play.google.com/store/apps/details?id=org.ctbeta.xmux.xmux&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img width="323px" height="125px" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/zh-cn_badge_web_generic.png'/></a></div><div style="margin-top: 10px"><a href='https://itunes.apple.com/my/app/xmux/id1366324008'><img width="254px" height="104px" id="dl-ios-img" alt='Get it on App Store' src='https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg'/></a></div></div>
 
 XMUX 应用现在已经支持 `Android` 与 `iOS` 平台，请按照如下说明下载安装。
 
