@@ -28,6 +28,8 @@ Nav:
     pages:
         Team:
             link: "/team/"
+        Downloads:
+            link: "/downloads/"
         # 简历: 
         #     link: "/about/"
         # 图库 :
