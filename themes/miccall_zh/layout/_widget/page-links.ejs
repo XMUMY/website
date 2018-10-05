@@ -89,13 +89,15 @@
         margin: 0;
         background: #000;
         position: absolute;
-        bottom: -100px;
+        /* bottom: -100px; */
+        top: 100%;
         left: 0;
         transition: all 0.5s ease 0s;
     }
 
     .our-team:hover .social {
-        bottom: 0;
+        /* bottom: 0; */
+        transform: translateY(-100%);
     }
 
     .our-team .social li {
@@ -143,7 +145,7 @@
                                                 </div>
                                                 <div class="team-content">
                                                     <h3 class="title"><%= i %></h3>
-                                                    <Span class="post"><%= site.data.links[i].descr %></Span>
+                                                    <span class="post" style="height: 3em"><%= site.data.links[i].descr %></span>
                                                 </div>
                                                 <ul class="social">
                                                     <% if (site.data.links[i].link != null) { %>

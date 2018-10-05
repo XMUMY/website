@@ -4,9 +4,9 @@
 
 # Head info
 head:
-    favicon: images/logo.jpg
+    favicon: /zh/images/logo.jpg
     keywords: XMUX
-    backgroundpic : images/bg.jpg
+    backgroundpic : /zh/images/bg.jpg
 
 Intro:
     name: XMUX
@@ -15,20 +15,22 @@ Intro:
 
 Nav:
     Home_name: 首页
-    is_use_categories : false 
+    is_use_categories : false
     categories_name: Categories
     is_use_archives : false
     archives_name: Archives
-    
+
     #Social
     # for more icons, please see http://fontawesome.io/icons/#brand
     icon:
         github: https://github.com/X-dea/XMUX
-        
+
     pages:
         团队 :
-            link: "/team/"
-        # 简历: 
+            link: "/zh/team/"
+        下载 :
+            link: "/zh/downloads/"
+        # 简历:
         #     link: "/about/"
         # 图库 :
         #     link: "/gallery/"
@@ -40,7 +42,7 @@ Nav:
 MainFirst:
     name: XMUX应用
     description: 为XMUMers设计的手机应用
-    pic_url: images/logo.jpg
+    pic_url: /zh/images/logo.jpg
     goto_ulr: https://cuu69.app.goo.gl/xmuxdl
 
 Gallery :
@@ -51,8 +53,8 @@ Gallery :
 # Style Settings
 # ---------------------------------------------------------------
 
-# Custom code Render System 自定义代码渲染 
-# default dark funky okaidia twilight coy solarized  可选项  
+# Custom code Render System 自定义代码渲染
+# default dark funky okaidia twilight coy solarized  可选项
 # link to review : http://prismjs.com/index.html   官网预览
 prism: coy
 
@@ -64,7 +66,7 @@ fonts: FZLTCXHJW, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB"
 #     duoshuo | disqus | disqus_click | changyan
 comment:
     use: false
-    shortname: http-miccall-tech 
+    shortname: http-miccall-tech
     duoshuo_thread_key_type: path
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
     changyan_appid:
@@ -87,8 +89,8 @@ comment:
 #     swiftype | google | local
 search:
     use: google
-    swiftype_key: Just another fine responsive  
-    
+    swiftype_key: Just another fine responsive
+
 
 # Leancloud Views
 leancloud:
@@ -105,7 +107,7 @@ busuanzi:
     busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
 
 
-# Mathjax 支持库 
+# Mathjax 支持库
 mathjax:
   enable: true
   per_page: false
