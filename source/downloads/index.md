@@ -3,10 +3,7 @@ title: Downloads
 date: 2018-01-01 00:00:00
 thumbnail: https://pic1.zhimg.com/v2-3e2f6b26a92a4b3ca2e1028ac2aaaee4_1200x500.jpg
 ---
-
-<a href='https://play.google.com/store/apps/details?id=org.ctbeta.xmux.xmux&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img width = "323px" height = "125px" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
-
-<a href='https://itunes.apple.com/my/app/xmux/id1366324008'><img width = "270px" height = "104px" alt='Get it on Google Play' src='https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg'/></a>
+<div style="display: flex"><div><a href='https://play.google.com/store/apps/details?id=org.ctbeta.xmux.xmux&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img width="323px" height="125px" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a></div><div style="margin-top: 10px"><a href='https://itunes.apple.com/my/app/xmux/id1366324008'><img width="254px" height="104px" alt='Get it on Google Play' src='https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg'/></a></div></div>
 
 XMUX application now support both `Android` and `iOS` platform. Please follow the steps to download the app.
 
