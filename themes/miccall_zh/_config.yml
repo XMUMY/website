@@ -4,9 +4,9 @@
 
 # Head info
 head:
-    favicon: /zh/images/logo.jpg
+    favicon: images/logo.jpg
     keywords: XMUX
-    backgroundpic : /zh/images/bg.jpg
+    backgroundpic : images/bg.jpg
 
 Intro:
     name: XMUX
