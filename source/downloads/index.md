@@ -9,15 +9,16 @@ XMUX application now support both `Android` and `iOS` platform. Please follow th
 
 ## Android
 
-For Android devices, you can get the app easily from [**Google Play**](https://play.google.com/store/apps/details?id=org.ctbeta.xmux.xmux), [**Xiaomi Market**](http://app.mi.com/details?id=org.ctbeta.xmux.xmux) or [**Huawei App Store**](http://appstore.huawei.com/app/C100267661). 
+For Android devices, you can get the app easily from [**Google Play**](https://play.google.com/store/apps/details?id=org.ctbeta.xmux.xmux), [**Xiaomi Market**](http://app.mi.com/details?id=org.ctbeta.xmux.xmux) or [**Huawei App Store**](http://appstore.huawei.com/app/C100267661).  
+You can also [**download APK file**](https://tinyurl.com/xmuxapp160) directly.
 
-> ### Attention:  
-> - XMUX only support Android 4.1+  
+> ### Attention:
+> - XMUX only support Android 4.1+
 > - XMUX android app depends on Google Mobile Service. Please make sure that your phone has GMS installed before login.
 
 ## iOS
 
 For iOS devices, you can search `XMUX` through App Store or [click here](https://itunes.apple.com/my/app/xmux/id1366324008) to install it.
 
-> ### Attention:  
-> - XMUX only support iOS 9.0+  
+> ### Attention:
+> - XMUX only support iOS 9.0+
