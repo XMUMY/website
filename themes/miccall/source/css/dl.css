@@ -1,3 +1,9 @@
+#dl-ms-img {
+    margin-left: 25px;
+    height: 85px;
+    width: auto;
+}
+
 @media screen and (max-width: 600px) {
   .dl-btn-con {
       flex-direction: column;
@@ -7,4 +13,10 @@
   #dl-ios-img {
       width: 283px;
   }
+  #dl-ms-img {
+      margin-left: 0;
+      height: auto;
+      width: 281px;
+  }
 }
+
