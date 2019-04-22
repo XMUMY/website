@@ -1,5 +1,13 @@
 ---
 title: 安装谷歌服务
 date: 2018-01-01 00:00:00
-thumbnail: https://us.nuumobile.com/add-nuu/uploads/google-mobile-services-large.jpg
+thumbnail: /zh/images/gms.jpg
 ---
+
+对于安卓设备，XMUX 应用依赖谷歌服务框架提供的部分服务。如果您设备上的谷歌服务没有正常运行，则将会再登陆时收到 “Platform Exception” 相关的错误提示信息且无法登录。大部分情况下，您可以按照以下说明安装并启用谷歌服务框架。
+
+## MIUI 启用谷歌服务
+大部分小米手机均内置了谷歌服务相关程序，但他们默认处于停用状态。您可以尝试在 设置>系统应用设置>谷歌服务 启用谷歌服务。如果您无法找到该选项，请尝试手动安装。
+
+## 手动安装
+推荐您[下载 Go谷歌安装器](https://www.coolapk.com/apk/com.goplaycn.googleinstall)，该应用可以自动检测当前系统中的谷歌服务状态并进行安装，按照应用内提示操作即可。

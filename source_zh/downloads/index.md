@@ -9,8 +9,8 @@ XMUX 应用现在已经支持 `Android`，`iOS` 和 `通用 Windows` 平台，�
 
 ## Android
 
-对于安卓设备，您可以轻松地通过 [**谷歌应用商店**](https://play.google.com/store/apps/details?id=org.ctbeta.xmux.xmux)、[**小米应用商店**](http://app.mi.com/details?id=org.ctbeta.xmux.xmux) 或 [**华为应用商店**](http://appstore.huawei.com/app/C100267661)下载安装。
-您也可以 [**直接下载**](https://tinyurl.com/xmux170) APK 文件进行安装。
+对于安卓设备，您可以轻松地通过 [谷歌应用商店](https://play.google.com/store/apps/details?id=org.ctbeta.xmux.xmux)、[小米应用商店](http://app.mi.com/details?id=org.ctbeta.xmux.xmux) 或 [华为应用商店](http://appstore.huawei.com/app/C100267661)下载安装。
+您也可以 [直接下载](https://tinyurl.com/xmux170) APK 文件进行安装。
 
 > ### 注意:
 > - XMUX 仅支持 Android 4.1 及更高版本。
