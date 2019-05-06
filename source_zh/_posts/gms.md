@@ -1,6 +1,6 @@
 ---
 title: 安装谷歌服务
-date: 2018-01-01 00:00:00
+date: 2019-01-01 00:00:00
 thumbnail: /zh/images/gms.jpg
 ---
 

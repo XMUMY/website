@@ -4,7 +4,7 @@
 
 # Head info
 head:
-    favicon: images/logo.jpg
+    favicon: images/logo.png
     keywords: XMUX
     backgroundpic : images/bg.jpg
 
@@ -42,7 +42,7 @@ Nav:
 MainFirst:
     name: XMUX应用
     description: 为XMUMers设计的手机应用
-    pic_url: /zh/images/logo.jpg
+    pic_url: /zh/images/logo.png
     goto_ulr: https://cuu69.app.goo.gl/xmuxdl
 
 Gallery :

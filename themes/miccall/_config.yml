@@ -4,7 +4,7 @@
 
 # Head info
 head:
-    favicon: images/logo.jpg
+    favicon: images/logo.png
     keywords: XMUX
     backgroundpic : images/bg.jpg
 
@@ -42,7 +42,7 @@ Nav:
 MainFirst:
     name: XMUX App
     description: Mobile app for XMUMers
-    pic_url: /images/logo.jpg
+    pic_url: /images/logo.png
     goto_ulr: https://cuu69.app.goo.gl/xmuxdl
 
 Gallery :

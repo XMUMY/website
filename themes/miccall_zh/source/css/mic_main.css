@@ -206,7 +206,7 @@
 
 		#intro p {
 			font-size: 1.5rem;
-			font-style: italic;
+			font-family: "Microsoft YaHei";
 			margin-top: -0.25rem;
 			text-align: center;
 		}
@@ -2197,7 +2197,7 @@
 			#me .pic:before {
 				content: '';
 				position: absolute;
-				background: url("/images/logo.jpg");
+				background: url("/images/logo.png");
 				width: 100%;
 				z-index: 1;
 			}
