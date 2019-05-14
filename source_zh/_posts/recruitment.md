@@ -1,17 +1,23 @@
 ---
 title: 招纳贤士
 date: 2019-05-01 00:00:00
-thumbnail: /zh/images/recruitment.jpg
+thumbnail: /images/recruitment.jpg
 ---
 
 # 职位与要求
 
 ## 工程类
 
-### 开发组
-- 熟练使用 Dart / Kotlin / Swift / C# / Go / Node.js （一种及以上）进行编程。
+### 应用开发组
+- 熟练使用 Dart / Kotlin / Swift （一种及以上）进行编程。
 - 拥有 安卓 / iOS / 跨平台 开发经验。
-- 拥有 前端 / 后端 开发经验。
+
+### 服务端开发组
+- 熟练使用 Go / Node.js （一种及以上）进行编程。
+- 拥有后端开发经验者更佳。
+
+### UWP 开发组
+- 熟练使用 C# 进行编程。
 
 ### 运维组
 - 熟练使用 Linux 操作系统。
