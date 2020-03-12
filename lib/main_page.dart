@@ -1,6 +1,7 @@
 import 'dart:math';
 import 'dart:ui';
 
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -47,11 +48,17 @@ class _MainPageState extends State<MainPage> {
             ),
           ),
         ),
-        Text(
-          'A powerful app for XMUMers',
-          textAlign: TextAlign.center,
-          style: Theme.of(context).textTheme.headline4,
-        )
+        TyperAnimatedTextKit(
+          text: [
+            'A powerful app for XMUMers',
+            '为 XMUMers 设计的强大应用',
+          ],
+          speed: Duration(milliseconds: 50),
+          pause: Duration(milliseconds: 3000),
+          textStyle: TextStyle(fontSize: 30.0, fontFamily: 'Agne'),
+          textAlign: TextAlign.left,
+          alignment: AlignmentDirectional.topStart,
+        ),
       ],
     );
 
