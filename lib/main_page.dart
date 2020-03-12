@@ -53,8 +53,8 @@ class _MainPageState extends State<MainPage> {
             'A powerful app for XMUMers',
             '为 XMUMers 设计的强大应用',
           ],
-          speed: Duration(milliseconds: 50),
-          pause: Duration(milliseconds: 3000),
+          speed: const Duration(milliseconds: 50),
+          pause: const Duration(milliseconds: 3000),
           textStyle: TextStyle(fontSize: 30.0, fontFamily: 'Agne'),
           textAlign: TextAlign.left,
           alignment: AlignmentDirectional.topStart,
@@ -123,6 +123,7 @@ class _MainPageState extends State<MainPage> {
             child: Container(),
           ),
           ListView(
+            padding: const EdgeInsets.all(10),
             controller: foregroundController,
             physics: BouncingScrollPhysics(),
             children: <Widget>[
@@ -138,10 +139,71 @@ class _MainPageState extends State<MainPage> {
                   downloads,
                 ],
               ),
-              Divider(height: 45, color: Colors.transparent),
+              Divider(height: 60, color: Colors.transparent),
+              Wrap(
+                alignment: WrapAlignment.spaceEvenly,
+                children: <Widget>[
+                  MainPageCard(
+                    imageUrl:
+                        'http://www.shejiye.com/uploadfile/icon/2017/0203/shejiyeicontmks240wnx1.png',
+                    name: 'XMUX Help Center',
+                    url: 'https://docs.xmux.xdea.io',
+                  ),
+                ],
+              )
             ],
           ),
         ],
+      ),
+    );
+  }
+}
+
+class MainPageCard extends StatelessWidget {
+  final String imageUrl;
+  final String name;
+  final String url;
+
+  const MainPageCard({Key key, this.imageUrl, this.name, this.url})
+      : super(key: key);
+
+  Widget buildCard(BuildContext context) {
+    var width = max(350, MediaQuery.of(context).size.width / 4);
+    var height = width * 9 / 16;
+
+    return Card(
+      margin: EdgeInsets.all(20),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+      child: Container(
+        width: width,
+        height: height,
+        child: Column(
+          children: <Widget>[
+            Expanded(
+              flex: 3,
+              child: Image.network(imageUrl),
+            ),
+            Expanded(
+              flex: 1,
+              child: Text(
+                name,
+                style: Theme.of(context).textTheme.headline5,
+              ),
+            )
+          ],
+        ),
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Theme(
+      data: ThemeData.light(),
+      child: OutlineButton(
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+        onPressed: () => launch(url),
+        child: Builder(builder: buildCard),
       ),
     );
   }
