@@ -30,10 +30,10 @@ jobs:
         uses: actions/download-artifact@v1.0.0
         with:
           name: site
-  #     - name: Deploy to Firebase
-  #       uses: w9jds/firebase-action@v1.3.0
-  #       with:
-  #         args: deploy --only hosting:xmux-docs
-  #       env:
-  #         PROJECT_ID: xmux-app
-  #         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+      - name: Deploy to Firebase
+        uses: w9jds/firebase-action@v1.3.0
+        with:
+          args: deploy --only hosting:xmux-app
+        env:
+          PROJECT_ID: xmux-app
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
