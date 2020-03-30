@@ -55,7 +55,7 @@ class _MainPageState extends State<MainPage> {
           ],
           speed: const Duration(milliseconds: 50),
           pause: const Duration(milliseconds: 3000),
-          textStyle: TextStyle(fontSize: 30.0, fontFamily: 'Agne'),
+          textStyle: TextStyle(fontSize: 25.0, fontFamily: 'Agne'),
           textAlign: TextAlign.left,
           alignment: AlignmentDirectional.topStart,
         ),
@@ -144,8 +144,7 @@ class _MainPageState extends State<MainPage> {
                 alignment: WrapAlignment.spaceEvenly,
                 children: <Widget>[
                   MainPageCard(
-                    imageUrl:
-                        'http://www.shejiye.com/uploadfile/icon/2017/0203/shejiyeicontmks240wnx1.png',
+                    imageUrl: 'https://s1.ax1x.com/2020/03/31/Gu47ZV.png',
                     name: 'XMUX Help Center',
                     url: 'https://docs.xmux.xdea.io',
                   ),
