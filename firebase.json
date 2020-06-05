@@ -1,7 +1,7 @@
 {
     "hosting": {
         "site": "xmux-app",
-        "public": "site",
+        "public": "Website",
         "ignore": [
             "firebase.json",
             "**/.*",
