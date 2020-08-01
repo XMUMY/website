@@ -1,11 +1,11 @@
 {
-    "name": "website",
-    "short_name": "website",
+    "name": "XMUX Official Website",
+    "short_name": "XMUX Website",
     "start_url": ".",
     "display": "minimal-ui",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "XMUX official website.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
