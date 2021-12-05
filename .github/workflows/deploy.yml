@@ -14,7 +14,7 @@ jobs:
         with:
           channel: dev
       - name: Build
-        run: flutter config --enable-web && flutter build web
+        run: flutter config --enable-web && flutter build web --release --web-renderer html
       - name: Upload Artifacts
         uses: actions/upload-artifact@v2
         with:
