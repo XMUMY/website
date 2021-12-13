@@ -98,6 +98,37 @@ class _MainPageState extends State<MainPage> {
             scale: 0.43,
           ),
         ),
+        Padding(
+          padding: const EdgeInsets.only(top: 10),
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              TextButton(
+                child: Text(
+                  'Windows',
+                  style: Theme.of(context)
+                      .textTheme
+                      .button
+                      ?.copyWith(color: Colors.white),
+                ),
+                onPressed: () => launch(
+                    'https://cdn.jsdelivr.net/gh/XMUMY/static@app-release/XMUX_v3.1.0_win.zip'),
+              ),
+              const VerticalDivider(color: Colors.transparent),
+              TextButton(
+                child: Text(
+                  'macOS',
+                  style: Theme.of(context)
+                      .textTheme
+                      .button
+                      ?.copyWith(color: Colors.white),
+                ),
+                onPressed: () => launch(
+                    'https://cdn.jsdelivr.net/gh/XMUMY/static@app-release/XMUX_v3.1.0_macOS.zip'),
+              ),
+            ],
+          ),
+        ),
       ],
     );
 
