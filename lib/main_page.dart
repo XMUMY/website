@@ -105,6 +105,18 @@ class _MainPageState extends State<MainPage> {
             children: [
               TextButton(
                 child: Text(
+                  'APK',
+                  style: Theme.of(context)
+                      .textTheme
+                      .button
+                      ?.copyWith(color: Colors.white),
+                ),
+                onPressed: () => launch(
+                    'https://github.com/XMUMY/XMUX/releases/download/v3.2.0/XMUX_v3.2.0.apk'),
+              ),
+              const VerticalDivider(color: Colors.transparent),
+              TextButton(
+                child: Text(
                   'Windows',
                   style: Theme.of(context)
                       .textTheme
@@ -112,7 +124,7 @@ class _MainPageState extends State<MainPage> {
                       ?.copyWith(color: Colors.white),
                 ),
                 onPressed: () => launch(
-                    'https://cdn.jsdelivr.net/gh/XMUMY/static@app-release/XMUX_v3.1.0_win.zip'),
+                    'https://cdn.jsdelivr.net/gh/XMUMY/static@app-release/XMUX_v3.2.0_win.zip'),
               ),
               const VerticalDivider(color: Colors.transparent),
               TextButton(
@@ -124,7 +136,7 @@ class _MainPageState extends State<MainPage> {
                       ?.copyWith(color: Colors.white),
                 ),
                 onPressed: () => launch(
-                    'https://cdn.jsdelivr.net/gh/XMUMY/static@app-release/XMUX_v3.1.0_macOS.zip'),
+                    'https://cdn.jsdelivr.net/gh/XMUMY/static@app-release/XMUX_v3.2.0_macOS.zip'),
               ),
             ],
           ),
