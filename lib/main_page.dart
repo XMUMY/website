@@ -3,7 +3,7 @@ import 'dart:ui';
 
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({Key? key}) : super(key: key);
@@ -35,7 +35,7 @@ class _MainPageState extends State<MainPage> {
 
   @override
   Widget build(BuildContext context) {
-    var logo = Column(
+    final logo = Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         Padding(
@@ -68,8 +68,9 @@ class _MainPageState extends State<MainPage> {
       ],
     );
 
-    var downloads = Column(
+    final downloads = Column(
       children: <Widget>[
+        const SizedBox(height: 30),
         TextButton(
           style: TextButton.styleFrom(
             padding: const EdgeInsets.all(15),
@@ -77,7 +78,7 @@ class _MainPageState extends State<MainPage> {
               borderRadius: BorderRadius.circular(10),
             ),
           ),
-          onPressed: () => launch(
+          onPressed: () => launchUrlString(
               'https://play.google.com/store/apps/details?id=org.ctbeta.xmux.xmux&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'),
           child: Image.network(
             'https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png',
@@ -91,8 +92,8 @@ class _MainPageState extends State<MainPage> {
               borderRadius: BorderRadius.circular(10),
             ),
           ),
-          onPressed: () =>
-              launch('https://itunes.apple.com/my/app/xmux/id1366324008'),
+          onPressed: () => launchUrlString(
+              'https://itunes.apple.com/my/app/xmux/id1366324008'),
           child: Image.network(
             'https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg',
             scale: 0.43,
@@ -108,10 +109,10 @@ class _MainPageState extends State<MainPage> {
                   'APK',
                   style: Theme.of(context)
                       .textTheme
-                      .button
+                      .labelLarge
                       ?.copyWith(color: Colors.white),
                 ),
-                onPressed: () => launch(
+                onPressed: () => launchUrlString(
                     'https://github.com/XMUMY/XMUX/releases/download/v3.2.0/XMUX_v3.2.0.apk'),
               ),
               const VerticalDivider(color: Colors.transparent),
@@ -120,10 +121,10 @@ class _MainPageState extends State<MainPage> {
                   'Windows',
                   style: Theme.of(context)
                       .textTheme
-                      .button
+                      .labelLarge
                       ?.copyWith(color: Colors.white),
                 ),
-                onPressed: () => launch(
+                onPressed: () => launchUrlString(
                     'https://cdn.jsdelivr.net/gh/XMUMY/static@app-release/XMUX_v3.2.0_win.zip'),
               ),
               const VerticalDivider(color: Colors.transparent),
@@ -132,10 +133,10 @@ class _MainPageState extends State<MainPage> {
                   'macOS',
                   style: Theme.of(context)
                       .textTheme
-                      .button
+                      .labelLarge
                       ?.copyWith(color: Colors.white),
                 ),
-                onPressed: () => launch(
+                onPressed: () => launchUrlString(
                     'https://cdn.jsdelivr.net/gh/XMUMY/static@app-release/XMUX_v3.2.0_macOS.zip'),
               ),
             ],
@@ -180,9 +181,9 @@ class _MainPageState extends State<MainPage> {
                 ],
               ),
               const Divider(height: 60, color: Colors.transparent),
-              Wrap(
+              const Wrap(
                 alignment: WrapAlignment.spaceEvenly,
-                children: const [
+                children: [
                   MainPageCard(
                     imageUrl: 'https://s1.ax1x.com/2020/03/31/Gu47ZV.png',
                     name: 'XMUX Help Center',
@@ -199,7 +200,7 @@ class _MainPageState extends State<MainPage> {
               const Divider(height: 60, color: Colors.transparent),
               const Center(
                 child: Text(
-                  'Copyright © 2017-2021 XMUX Project. All rights reserved.',
+                  'Copyright © 2017-2024 XMUX Project. All rights reserved.',
                   textAlign: TextAlign.center,
                 ),
               ),
@@ -252,7 +253,7 @@ class MainPageCard extends StatelessWidget {
               child: Center(
                 child: Text(
                   name,
-                  style: Theme.of(context).textTheme.headline5,
+                  style: Theme.of(context).textTheme.headlineSmall,
                 ),
               ),
             )
@@ -265,14 +266,17 @@ class MainPageCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Theme(
-      data: ThemeData.light(),
-      child: OutlinedButton(
-        style: OutlinedButton.styleFrom(
+      data: ThemeData(
+        colorSchemeSeed: Colors.cyan,
+        brightness: Brightness.light,
+      ),
+      child: TextButton(
+        style: TextButton.styleFrom(
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(10),
           ),
         ),
-        onPressed: () => launch(url),
+        onPressed: () => launchUrlString(url),
         child: Builder(builder: buildCard),
       ),
     );

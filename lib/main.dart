@@ -11,7 +11,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'XMUX Official Website',
       theme: ThemeData(
-        primarySwatch: Colors.cyan,
+        colorSchemeSeed: Colors.cyan,
         brightness: Brightness.dark,
       ),
       home: const MainPage(),
